@@ -1,0 +1,131 @@
+@charset "UTF-8";
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border-top: 10px solid #79a1b1;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+html {
+    scroll-behavior: smooth;
+}
+.header h1 {
+    font-size: 50px ;
+    text-align: center ;
+    margin-top: 50px ;
+    margin-bottom: 50px ;
+}
+.sentence {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+.header ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0;
+    margin-bottom: 50px;
+}
+.header ul li {
+    width: 300px;
+    text-align: center;
+    border-right: 3px solid #2e5d70;
+}
+.header ul li:first-child {
+    border-left: 3px solid #2e5d70;
+}
+.header ul li a {
+    display: block;
+}
+.love {
+    margin-bottom: 50px;
+}
+.container h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+.container h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.container .title {
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 400px;
+}
+.container a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #1449c4;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 6px 12px;
+}
+.footer {
+    margin-top: 40px;
+}
+.pp_link {
+    text-align: right;
+    margin-bottom: 20px;
+}
+.copyright {
+    text-align: center;
+    background-color: #79a1b1;
+    color: #fff;
+    padding: 7px 0 3px;
+}
+@media screen and (max-width: 600px) {
+
+    .header h1 {
+        font-size: 32px;
+    }
+
+    .header ul {
+        display: block;
+    }
+
+    .header ul li {
+        width: auto;
+        border-right: none;
+        border-bottom: 1px solid #2e5d70;
+        margin: 10px 20px;
+    }
+
+    .header ul li:first-child {
+        border-left: none;
+    }
+
+    .header ul a {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .container .love h2 {
+        font-size: 30px;
+    }
+
+    .container .love h3 {
+        font-size: 22px;
+    }
+
+    .love_title {
+        display: block;
+        text-align: center;
+    }
+
+    .container .love a {
+        display: inline-block;
+        margin-top: 5px;
+    }
+}
